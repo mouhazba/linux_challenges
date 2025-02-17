@@ -13,7 +13,7 @@
 ## Question 2
 *Quelle commande affiche la date actuelle ?*
 
-### Solution 2
+### Solution 1
 ```
 	$ date
 ```
@@ -21,7 +21,7 @@
 ## Question 3
 *Comment rappeler la dernière commande exécutée ?*
 
-### Solution 3:
+### Solution 1:
 ```
 Flèche ↑
 ```
@@ -29,15 +29,16 @@ Flèche ↑
 ## Question 4
 *Quelle combinaison de touches termine une session terminal ?*
 
-### Solution 4
+### Solution 1
 ```
 	Ctl + D
+	Ctl + C
 ```
 
 ## Question 5
 *Quel est le rôle d’un émulateur de terminal ?*
 
-### solution 5
+### solution 1
 ```
-Un enumelarateur de terminal permet d'intergair avec la Shell
+Un enumelarateur de terminal permet d'interagir avec la Shell
 ```
