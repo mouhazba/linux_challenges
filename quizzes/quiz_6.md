@@ -6,8 +6,8 @@
 ### solution 
 
 ```
-* >  ecrase
-* >> fajout au fichier
+ >  ecrase
+ >> fajout au fichier
 ```
 
 
@@ -16,7 +16,7 @@
 
 ### Solution 1
 ```bash
-$command 2> /dev/null
+$ command 2> /dev/null
 ```
 
 ## Question 3
@@ -24,12 +24,12 @@ $command 2> /dev/null
 
 ### Solution 1
 ```bash
-commande > file_name 2>&1
+$ commande > file_name 2>&1
 ```
 
 ### Solution 2
 ```bash
-commande  & > file_name
+$ commande  & > file_name
 ```
 
 ## Question 4
@@ -37,7 +37,7 @@ commande  & > file_name
 
 ### Solution 1
 ```
-ls /var/log | grep '.log'
+$ ls /var/log | grep '.log'
 ```
 
 ## Question 5
@@ -45,7 +45,7 @@ ls /var/log | grep '.log'
 
 ### Solution 1
 ```bash
-$cat file | wl -l
+$ cat file | wl -l
 
 ```
 
