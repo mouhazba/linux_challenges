@@ -1,6 +1,6 @@
 # Questions
 
-## Question 6
+## Question 1
 **Quelle est la différence entre > et >> ?**
 
 ### solution 
