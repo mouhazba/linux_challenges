@@ -15,8 +15,8 @@ $ ls *.txt
 
 ### Solution 1
 
-- " " ineterprete les variables dans la cahine
-- ' ' aucune interpretationbles de varia dans les chaines
+- " " ineterprete les variables dans la chaine
+- ' ' aucune interpretationbles faites dans la chaines
 
 ## Question 3
 ***Que fait cette commande ?***
