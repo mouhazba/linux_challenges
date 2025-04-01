@@ -1,53 +1,48 @@
 # Questions
 
 ## Question 1
-***Quelle est la différence entre .bashrc et .profile ?***
+***Quelle commande permet d’afficher uniquement les variables d’environnement ?***
 
 ### solution 
 
-- .bashrc 
-	-- Chargé à chaque ouverture d’un terminal interactif.
-	-- Contient les alias, variables locales, et configurations spécifiques à Bash.
-- .profile 
-	-- Chargé une seule fois lors de la connexion à une session.
-	-- Définit des variables d’environnement permanentes et est utilisé par tous les shells (pas seulement Bash).
+```
+$ printenv
+```
 
 
 ## Question 2
-***Quelle commande permet d’appliquer immédiatement une modification dans .bashrc sans redémarrer la session ?***
+***Comment créer une variable temporaire MY_VAR contenant "Hello" ?***
 
 ### Solution 1
 ```
-$ source ~/.bashrc
-
+ $ MY_VAR ="Hello"
 ```
+
 
 ## Question 3
-***Où faut-il ajouter une variable pour qu’elle soit globale à tous les utilisateurs ?***
+***Quelle commande supprime une variable d’environnement existante ?***
 
 ### Solution 1
 
-- Dans  /etc/profile
-
-**OR**
-
-- Dans /etc/bash.bashrc
+```
+$ unset MY_VAR
+```
 
 ## Question 4
-***Quelle commande permet d’afficher uniquement les alias définis dans .bashrc ?***
+***Où faut-il ajouter une variable pour qu’elle soit permanente ?***
 
 ### Solution 1
 ```
-$ cat ~/.bashrc | grep alias
+$ commande >> ~/.bashrc
+$ source ~/./bashrc
 ```
 
 ## Question 5
-***Comment rendre permanent un alias la='ls -A' pour un utilisateur spécifique ?***
+***Comment modifier le prompt (PS1) pour qu’il affiche uniquement le répertoire courant (\W) suivi de $ ?***
 
 ### Solution 1
 ```
-$ echo "alias la='ls -A'" > ~/.bashrc
-$ source ~/.bashrc
+$ export $PS1="\w$"
 ```
 
 

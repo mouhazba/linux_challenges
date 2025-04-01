@@ -1,46 +1,45 @@
 # Questions
 
 ## Question 1
-***Quelle commande permet d'afficher les processus en temps réel ?***
+***Quelle commande permet d’afficher les permissions d’un fichier ?***
 
 ### solution 
 
 ```
-$ ps aux
+$ ls -l fichier.txt
 ```
 
 
 ## Question 2
-***Comment tuer un processus sans connaître son PID ?***
+***Quelle option chmod utilise-t-on pour ajouter une permission d’exécution ?***
 
 ### Solution 1
 ```
- $ pkill p_name
+ $ chmod +x script.sh
 ```
 
 
 ## Question 3
-***Quelle commande permet de voir les processus en arrière-plan ?***
+***Quelle est la valeur numérique de rwxr--r-- ?***
 
 ### Solution 1
 
 ```
-$ jobs
+$ 744
 ```
 
 ## Question 4
-***Quelle commande met un programme en pause sans le fermer ?***
+***Comment changer le propriétaire et le groupe d’un fichier en une seule commande ?***
 
 ### Solution 1
 ```
-$ fg %num_ 
+$ sudo chown user:group fichier.txt
 ```
 
 ## Question 5
-***Quelle est la différence entre nice et renice ?***
+***Que fait le Sticky Bit (chmod +t) sur un dossier ?***
 
 ### Solution 1
-> nice definit la priorite d'un processus
-> renice redefinit une priorite donnee
+> Il empêche les utilisateurs autres que le propriétaire de supprimer des fichiers dans ce dossier.
 
 

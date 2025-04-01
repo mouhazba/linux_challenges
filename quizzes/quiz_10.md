@@ -1,48 +1,46 @@
 # Questions
 
 ## Question 1
-***Quelle commande permet d’afficher uniquement les variables d’environnement ?***
+***Quelle commande permet d'afficher les processus en temps réel ?***
 
 ### solution 
 
 ```
-$ printenv
+$ ps aux
 ```
 
 
 ## Question 2
-***Comment créer une variable temporaire MY_VAR contenant "Hello" ?***
+***Comment tuer un processus sans connaître son PID ?***
 
 ### Solution 1
 ```
- $ MY_VAR ="Hello"
+ $ pkill p_name
 ```
 
 
 ## Question 3
-***Quelle commande supprime une variable d’environnement existante ?***
+***Quelle commande permet de voir les processus en arrière-plan ?***
 
 ### Solution 1
 
 ```
-$ unset MY_VAR
+$ jobs
 ```
 
 ## Question 4
-***Où faut-il ajouter une variable pour qu’elle soit permanente ?***
+***Quelle commande met un programme en pause sans le fermer ?***
 
 ### Solution 1
 ```
-$ commande >> ~/.bashrc
-$ source ~/./bashrc
+$ fg %num_ 
 ```
 
 ## Question 5
-***Comment modifier le prompt (PS1) pour qu’il affiche uniquement le répertoire courant (\W) suivi de $ ?***
+***Quelle est la différence entre nice et renice ?***
 
 ### Solution 1
-```
-$ export $PS1="\w$"
-```
+> nice definit la priorite d'un processus
+> renice redefinit une priorite donnee
 
 

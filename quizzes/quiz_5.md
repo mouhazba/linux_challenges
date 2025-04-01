@@ -41,7 +41,7 @@
 - alias ll='ls -lah'
 ```
 
-> rendre un alias permenent
+> rendre un alias permanent
 ```
 - echo "alias gohome='cd -'" >> ~/.bashrc
 - source ~/.bashrc
